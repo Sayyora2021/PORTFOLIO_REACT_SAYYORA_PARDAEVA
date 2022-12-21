@@ -1,0 +1,77 @@
+$white: #ddd;
+$green: #2b6e8b;
+$black: #333;
+$beige: #f3edf1;
+$txtColor: #08eeee;
+
+$font-1: "Poppins";
+$font-2: "Montserrat";
+$font-3: "Inter";
+$font-4: "PT Serif";
+
+$shadow: 0 1px 3px #333;
+$border: 25px;
+$min-height: 95vh;
+
+span {
+  font-family: $font-1;
+  color: $txtColor;
+  font-size: 20px;
+}
+body {
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  font-style: normal;
+  font-family: $font-1;
+  color: $black;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+i {
+  color: $txtColor;
+  padding: 10px;
+}
+img {
+  color: $txtColor;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+a:visited {
+  color: $black;
+}
+.home,
+.competence,
+.portfolio,
+.contact {
+  display: flex;
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+.homeContent,
+.competenceContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+  @media screen and (max-width: 850px) {
+    margin-left: 0 !important;
+  }
+}
+ul {
+  display: flex;
+  color: $txtColor;
+  justify-content: space-between;
+}

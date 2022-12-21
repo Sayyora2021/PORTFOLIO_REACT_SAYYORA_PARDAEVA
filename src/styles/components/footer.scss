@@ -1,0 +1,22 @@
+.footer {
+  background-color: $green;
+  width: 100%;
+  border-radius: $border;
+  height: 150px;
+}
+h1 {
+  color: $txtColor;
+  text-align: center;
+}
+.name {
+  color: $txtColor;
+  overflow: hidden;
+}
+
+.button:hover > .name {
+  transition: transform 330ms ease-in-out;
+  transform: translateX(-50px);
+}
+.button {
+  width: 20px;
+}
