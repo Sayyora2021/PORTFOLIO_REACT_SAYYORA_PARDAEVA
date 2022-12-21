@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="fond">
+    <header className="fond">
       <div className="id">
         <div className="idContent">
           <img src={photo} alt=" profil" className="image" />
@@ -47,7 +47,7 @@ const Navigation = () => {
           <span>Contact</span>
         </NavLink>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>Réseaux sociaux et contacts</h1>
+      <h1>Contactez-moi</h1>
       <ul>
         <li>
           <i className="fab fa-linkedin"></i>
@@ -25,14 +25,16 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <div>
-            <i className="fas fa-paper-plane button"></i>
+          <div className="button">
+            <i className="fas fa-paper-plane"></i>
             <p className="name">sayyorapardaeva@gmail.com</p>
           </div>
         </li>
         <li>
-          <i className="fas fa-phone"></i>
-          <h3>07 69 78 47 33</h3>
+          <div className="button">
+            <i className="fas fa-phone"></i>
+            <p className="name">07 69 78 47 33</p>
+          </div>
         </li>
       </ul>
     </div>

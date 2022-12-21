@@ -1,0 +1,51 @@
+.image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 5%;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 16px;
+  font-family: $font-1;
+  font-weight: 300;
+  text-align: justify;
+}
+.idContent {
+  color: $txtColor;
+  margin: 5%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.fond {
+  background-color: $green;
+  font-family: $font-1;
+  height: 100%;
+  width: 30%;
+  border-radius: $border;
+}
+.navigation {
+  margin: 10% 20% 10% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid $txtColor;
+  width: auto;
+}
+.nav-active {
+  border-bottom: 1px solid $txtColor;
+}
+.nav {
+  border-bottom: 1px solid $green;
+}

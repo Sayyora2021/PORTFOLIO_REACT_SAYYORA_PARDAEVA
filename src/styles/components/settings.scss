@@ -3,6 +3,7 @@ $green: #2b6e8b;
 $black: #333;
 $beige: #f3edf1;
 $txtColor: #08eeee;
+$light: #b3fafa;
 
 $font-1: "Poppins";
 $font-2: "Montserrat";
@@ -17,6 +18,9 @@ span {
   font-family: $font-1;
   color: $txtColor;
   font-size: 20px;
+  &:hover {
+    color: $light;
+  }
 }
 body {
   width: auto;
@@ -35,6 +39,7 @@ i {
   color: $txtColor;
   padding: 10px;
 }
+
 img {
   color: $txtColor;
 }
@@ -74,4 +79,9 @@ ul {
   display: flex;
   color: $txtColor;
   justify-content: space-between;
+}
+@mixin vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

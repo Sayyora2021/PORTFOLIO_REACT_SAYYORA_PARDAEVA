@@ -1,11 +1,19 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import Languages from "../components/Competence/Languages";
+import Experience from "../components/Competence/Experience";
+import Hobbies from "../components/Competence/Hobbies";
 
 const Competence = () => {
   return (
-    <div>
+    <div className="competence">
       <Navigation />
-      Skills c'est ici
+      <div className="comptenceContent">
+        <Languages />
+        <Experience />
+        <Hobbies />
+        Skills c'est ici
+      </div>
     </div>
   );
 };

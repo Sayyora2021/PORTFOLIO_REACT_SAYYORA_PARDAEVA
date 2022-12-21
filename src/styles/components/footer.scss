@@ -10,13 +10,11 @@ h1 {
 }
 .name {
   color: $txtColor;
-  overflow: hidden;
+  // overflow: hidden;
+  transform: scale(0, 0.5);
 }
 
 .button:hover > .name {
   transition: transform 330ms ease-in-out;
-  transform: translateX(-50px);
-}
-.button {
-  width: 20px;
+  transform: translateX(-90px);
 }
