@@ -2,13 +2,13 @@ $white: #ddd;
 $green: #2b6e8b;
 $black: #333;
 $beige: #f3edf1;
-$txtColor: #08eeee;
+$txtColor: #a6b02f;
+// $txtColor: #596012;
 $light: #b3fafa;
 
-$font-1: "Poppins";
-$font-2: "Montserrat";
-$font-3: "Inter";
-$font-4: "PT Serif";
+$font-1: "Dancing Script";
+$font-2: "Comfortaa";
+$font-3: "Poppins";
 
 $shadow: 0 1px 3px #333;
 $border: 25px;
@@ -17,20 +17,25 @@ $min-height: 95vh;
 span {
   font-family: $font-1;
   color: $txtColor;
-  font-size: 20px;
+  font-size: 26px;
   &:hover {
-    color: $light;
+    color: linear-gradient(188deg, #606617, #bfc57c, #a6b02f);
   }
+}
+header {
+  width: 100%;
 }
 body {
   width: auto;
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
+  // height: 100vh;
+  height: 70vh;
   font-style: normal;
   font-family: $font-1;
   color: $black;
 }
+
 .icon {
   width: 30px;
   height: 30px;
@@ -57,28 +62,11 @@ a {
 a:visited {
   color: $black;
 }
-.home,
-.competence,
-.portfolio,
-.contact {
-  display: flex;
-  @media screen and (max-width: 850px) {
-    display: block !important;
-  }
-}
-.homeContent,
-.competenceContent,
-.portfolioContent,
-.contactContent {
-  margin-left: 0.4rem;
-  @media screen and (max-width: 850px) {
-    margin-left: 0 !important;
-  }
-}
+
 ul {
   display: flex;
-  color: $txtColor;
   justify-content: space-between;
+  align-items: center;
 }
 @mixin vertical {
   display: flex;
