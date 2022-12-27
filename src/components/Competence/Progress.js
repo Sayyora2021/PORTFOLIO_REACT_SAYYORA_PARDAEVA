@@ -10,7 +10,7 @@ const Progress = (skill) => {
         <span>Année d'experience</span>
         <span> 1 an</span>
       </div>
-      {skill.languages.map((item) => {
+      {skill.frontend.map((item) => {
         let xpYears = 1;
         let progress = (item.xp / xpYears) * 100 + "%";
         return (

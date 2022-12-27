@@ -1,0 +1,72 @@
+.competenceContent {
+  padding: 10px;
+
+  h3 {
+    font-family: $font-3;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .languagesFrameworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+
+    .languageProgress {
+      @include box;
+      padding: 10px;
+    }
+    // :hover {
+    //   transition: all 0.5s ease-in-out;
+    //   transform: translateY(-2px) scale(1.1);
+    // }
+    .frameWorkProgress {
+      @include box;
+      padding: 10px;
+    }
+    .years {
+      font-size: 0.65rem;
+      display: flex;
+      justify-content: space-between;
+      color: $white;
+
+      span {
+        font-family: $font-3;
+        font-size: 22px;
+      }
+    }
+  }
+}
+//   .languagesList {
+//     padding-top: 0.5rem;
+
+//     li {
+//       color: $green;
+//     }
+//     .progress {
+//       height: 0.4rem;
+//       background: transparent;
+//       border-radius: 50px;
+//       margin-top: 0.2rem;
+//       position: relative;
+
+//       &:after {
+//         content: "";
+//         position: absolute;
+//         background: $txtColor;
+//         border-radius: 50px;
+//         height: 0.4rem;
+//         width: 0;
+//         animation: line 2s ease-out forwards;
+
+//         @keyframes line {
+//           to {
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

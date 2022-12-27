@@ -1,6 +1,5 @@
 import React from "react";
 import photo from "../assets/img/maphoto.jpg";
-import Competence from "./Competence";
 
 const Home = () => {
   return (
@@ -26,9 +25,6 @@ const Home = () => {
             Télécharger CV
           </a>
         </div>
-      </section>
-      <section>
-        <Competence />
       </section>
     </main>
   );

@@ -6,13 +6,11 @@ import Hobbies from "../components/Competence/Hobbies";
 
 const Competence = () => {
   return (
-    <div className="competence">
-      <div className="competenceContent">
-        <Languages />
-        <Skills />
-        <Hobbies />
-      </div>
-    </div>
+    <section className="competenceContent">
+      <Languages />
+      <Skills />
+      <Hobbies />
+    </section>
   );
 };
 

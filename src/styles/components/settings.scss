@@ -22,20 +22,21 @@ span {
     color: linear-gradient(188deg, #606617, #bfc57c, #a6b02f);
   }
 }
-header {
-  width: 100%;
-}
+
 body {
   width: auto;
   max-width: 1200px;
   margin: 0 auto;
-  // height: 100vh;
-  height: 70vh;
+  height: 100vh;
   font-style: normal;
   font-family: $font-1;
   color: $black;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px 50px 10px;
+}
 .icon {
   width: 30px;
   height: 30px;
@@ -72,4 +73,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@mixin box {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: $border;
+  box-shadow: 0 1px 6px #333;
 }

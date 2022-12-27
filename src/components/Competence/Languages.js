@@ -3,12 +3,12 @@ import Progress from "./Progress";
 
 class Languages extends Component {
   state = {
-    languages: [
+    frontend: [
       { id: 1, value: "JavaScript", xp: 1.8 },
       { id: 2, value: "HTML5 & CSS3", xp: 2 },
       { id: 3, value: "NodeJs", xp: 0.7 },
     ],
-    frameworks: [
+    backend: [
       { id: 1, value: "React", xp: 0.4 },
       { id: 2, value: "MongoDB/Express", xp: 0.8 },
       { id: 3, value: "Sass", xp: 2 },
@@ -16,18 +16,18 @@ class Languages extends Component {
     ],
   };
   render() {
-    let { languages, frameworks } = this.state;
+    let { frontend, backend } = this.state;
     return (
       <div className="languagesFrameworks">
         <Progress
-          languages={languages}
+          frontend={frontend}
           className="languageProgress"
-          title="Languages"
+          title="Frontend"
         />
         <Progress
-          languages={frameworks}
+          frontend={backend}
           className="frameWorkProgress"
-          title="Frameworks & bibliothèques"
+          title="Backend"
         />
       </div>
     );

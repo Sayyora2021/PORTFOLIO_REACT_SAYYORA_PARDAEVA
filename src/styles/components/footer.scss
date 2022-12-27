@@ -6,8 +6,7 @@ footer {
   box-sizing: border-box;
 }
 .button {
-  display: flex;
-  align-items: center;
+  @include vertical;
   padding-right: 15px;
   p {
     font-size: 25px;

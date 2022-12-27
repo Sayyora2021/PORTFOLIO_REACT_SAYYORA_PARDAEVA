@@ -8,9 +8,7 @@ const Navigation = () => {
         <i className="fas fa-home"></i>
         <span>Accueil</span>
       </NavLink>
-      <a className="navigate" href="#competence">
-        Compétnces
-      </a>
+
       <NavLink
         to="/competence"
         className={(nav) => (nav.isActive ? "nav-active" : "")}
@@ -36,7 +34,6 @@ const Navigation = () => {
         <span>Contact</span>
       </NavLink>
     </header>
-    // <section id="compétences"></section>
   );
 };
 
