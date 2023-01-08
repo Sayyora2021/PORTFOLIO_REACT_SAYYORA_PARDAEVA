@@ -1,37 +1,68 @@
 .home {
-  .homeContent {
+  // .homeContent {
+  //   font-family: $font-1;
+  //   text-align: center;
+  // }
+  h1 {
+    font-size: calc(1rem + 8vw);
     font-family: $font-1;
+    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: calc(0.7rem + 5vw);
+    font-family: $font-1;
+    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about {
     text-align: center;
   }
-  .textCenter {
-    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 37px;
-  }
-  .cv {
-    a {
-      font-family: "Poppins";
-      font-size: 20px;
-      background: $txtColor;
-      border-radius: $border;
-      box-shadow: 0 5px 1px rgb(15, 15, 15);
-      transition: 0.2s ease;
-      padding: 5px;
-      a:hover {
-        color: $light;
-      }
-    }
+  p {
+    font-family: $font-3;
+    font-size: calc(1rem + 1vw);
+    line-height: calc(7px + 4.5vw);
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 70%;
+    min-width: 280px;
+    margin: 0 auto;
   }
 }
-.info {
-  color: $black;
-  font-size: 24px;
+.cv {
+  text-align: center;
+  margin-top: 20px;
+  span {
+    font-family: $font-3;
+    text-transform: uppercase;
+    color: $black;
+    font-size: 20px;
+    font-weight: normal;
+  }
 }
+.btn {
+  font-size: 2rem;
+  border-radius: 15px;
+  background: #eee;
+  padding: 4px;
+  box-shadow: 1px 3px lightgrey;
+}
+.btn .bx {
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background: $txtColor;
+  transition: 0.3s all linear;
+}
+
 .imgRight {
   display: flex;
   align-items: center;
-  margin-left: 5%;
+  justify-content: center;
 }
 h1 {
   background: linear-gradient(180deg, #444818, #bfc57c, #a6b02f);
@@ -40,10 +71,7 @@ h1 {
   font-size: 52px;
   text-align: center;
 }
-.about {
-  display: flex;
-  margin: 5%;
-}
+
 .image {
   height: 200px;
   width: 200px;
