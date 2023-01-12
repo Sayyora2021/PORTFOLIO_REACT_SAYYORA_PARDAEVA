@@ -1,14 +1,14 @@
 $white: #ddd;
-$green: #2b6e8b;
+$blue: #1d4f64;
 $black: #333;
 $beige: #f3edf1;
-$txtColor: #a6b02f;
-// $txtColor: #596012;
-$light: #b3fafa;
+$txtColor: #a1ab41;
+$darkcolor: #5a6111;
+$footTxt: #edf1c1;
 
 $font-1: "Dancing Script";
 $font-2: "Comfortaa";
-$font-3: "Poppins";
+$poppins: "Poppins";
 
 $shadow: 0 1px 3px #333;
 $border: 25px;
@@ -41,10 +41,10 @@ main {
   width: 30px;
   height: 30px;
 }
-i {
-  color: $txtColor;
-  padding: 10px;
-}
+// i {
+//   color: $txtColor;
+//   padding: 10px;
+// }
 
 img {
   color: $txtColor;
@@ -60,9 +60,9 @@ a {
   color: $black;
   cursor: pointer;
 }
-a:visited {
-  color: $black;
-}
+// a:visited {
+//   color: $black;
+// }
 
 ul {
   display: flex;

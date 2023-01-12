@@ -1,72 +1,88 @@
-.competenceContent {
-  padding: 10px;
-
+section {
+  margin: 30px 40px;
+  padding: 0 10%;
+  text-align: center;
+  h2 {
+    font-size: calc(0.7rem + 5vw);
+    font-family: "Dancing Script", cursive;
+    font-display: swap;
+    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   h3 {
-    font-family: $font-3;
+    font-family: $poppins;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
   }
-
-  .languagesFrameworks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px;
-
-    .languageProgress {
-      @include box;
-      padding: 10px;
-    }
-    // :hover {
-    //   transition: all 0.5s ease-in-out;
-    //   transform: translateY(-2px) scale(1.1);
-    // }
-    .frameWorkProgress {
-      @include box;
-      padding: 10px;
-    }
-    .years {
-      font-size: 0.65rem;
-      display: flex;
-      justify-content: space-between;
-      color: $white;
-
-      span {
-        font-family: $font-3;
-        font-size: 22px;
-      }
-    }
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 5rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
   }
 }
-//   .languagesList {
-//     padding-top: 0.5rem;
+.skillsContent {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.skillsBox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
 
-//     li {
-//       color: $green;
-//     }
-//     .progress {
-//       height: 0.4rem;
-//       background: transparent;
-//       border-radius: 50px;
-//       margin-top: 0.2rem;
-//       position: relative;
+.competenceBox {
+  border: 2px solid #333;
+  width: 300px;
+  border-radius: 15px;
+  padding: 15px;
+  @media screen and (max-width: 768px) {
+    width: auto;
+  }
 
-//       &:after {
-//         content: "";
-//         position: absolute;
-//         background: $txtColor;
-//         border-radius: 50px;
-//         height: 0.4rem;
-//         width: 0;
-//         animation: line 2s ease-out forwards;
-
-//         @keyframes line {
-//           to {
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+  i {
+    font-size: 40px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 14px;
+    line-height: calc(1px + 2.5vw);
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .red {
+    color: red;
+  }
+  .blue {
+    color: blue;
+  }
+  .violet {
+    color: #c66395;
+  }
+  .yellow {
+    color: yellow;
+    background: black;
+  }
+  .react {
+    color: #61dbfb;
+  }
+  .green {
+    color: green;
+  }
+}

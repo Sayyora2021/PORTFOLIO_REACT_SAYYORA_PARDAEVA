@@ -10,13 +10,12 @@ const Progress = (skill) => {
         <span>Année d'experience</span>
         <span> 1 an</span>
       </div>
-      {skill.frontend.map((item) => {
-        let xpYears = 1;
-        let progress = (item.xp / xpYears) * 100 + "%";
+      {skill.frontend.map((item, index) => {
         return (
-          <div key={item.id} className="langaugesList">
+          <div key={index} className="color">
             <li>{item.value}</li>
-            <div className="progress" style={{ width: progress }}></div>
+            <i className={`fas fa-${item.icon} iconsize`}></i>
+            <i className={`fab fa-${item.icon} iconsize`}></i>
           </div>
         );
       })}

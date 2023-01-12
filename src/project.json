@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Booki",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/booki-mini.webp",
+    "alt": "image de booki",
+    "icons": ["./images/html.svg", "./images/css.svg"],
+    "description": "Transformer une maquette en site web avec HTML & CSS",
+    "git": "https://github.com/Sayyora2021/P2_Booki",
+    "site": "https://sayyora2021.github.io/P2_Booki/"
+  },
+  {
+    "title": "OhMyFood",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/ohmyfood-mini.webp",
+    "alt": "image de oh my food",
+    "icons": ["./images/html.svg", "./images/sass.svg"],
+    "description": "Dynamiser une page web avec des animations CSS",
+    "git": "https://github.com/Sayyora2021/P3_Sayyora_042022",
+    "site": "https://sayyora2021.github.io/P3_Sayyora_042022/index.html"
+  },
+  {
+    "title": "La Panthère",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/panthere-mini.webp",
+    "alt": "image de la panthère",
+    "icons": ["./images/js.svg", "./images/css.svg"],
+    "description": "SEO d'un site web existant",
+    "git": "https://github.com/Sayyora2021/P4_La_Panthere",
+    "site": "https://sayyora2021.github.io/P4_La_Panthere/"
+  },
+  {
+    "title": "Kanap",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/kanap-mini.webp",
+    "alt": "image de Kanap",
+    "icons": ["./images/html.svg", "./images/sass.svg", "./images/js.svg"],
+    "description": "Site e-commerce en JavaScript",
+    "git": "https://sayyora2021.github.io/P5_Kanap/"
+  },
+  {
+    "title": "Piiquante",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/piiquante-mini.webp",
+    "alt": "image de Piiquante",
+    "icons": ["./images/html.svg", "./images/sass.svg", "./images/js.svg"],
+    "description": "Construction d'un API sécurisée pour une application",
+    "git": "https://github.com/Sayyora2021/P6_PIIQUANTE"
+  },
+
+  {
+    "title": "Kasa",
+    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/kasa-mini.webp",
+    "alt": "image de kasa",
+    "icons": ["./images/html.svg", "./images/sass.svg", "./images/react.svg"],
+    "description": "Application web de location avec React",
+    "git": "https://sayyora2021.github.io/P7_Kasa/"
+  }
+]

@@ -1,8 +1,4 @@
 .home {
-  // .homeContent {
-  //   font-family: $font-1;
-  //   text-align: center;
-  // }
   h1 {
     font-size: calc(1rem + 8vw);
     font-family: $font-1;
@@ -12,8 +8,8 @@
 
     margin: 0 auto;
   }
-  h2 {
-    font-size: calc(0.7rem + 5vw);
+  .profession {
+    font-size: calc(0.3rem + 4vw);
     font-family: $font-1;
     background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
     background-clip: text;
@@ -23,9 +19,9 @@
     text-align: center;
   }
   p {
-    font-family: $font-3;
-    font-size: calc(1rem + 1vw);
-    line-height: calc(7px + 4.5vw);
+    font-family: $poppins;
+    font-size: calc(0.5rem + 1vw);
+
     letter-spacing: 1px;
     text-align: justify;
     width: 70%;
@@ -33,11 +29,20 @@
     margin: 0 auto;
   }
 }
+.line {
+  display: block;
+  height: 2px;
+  width: 70%;
+  background: #000101;
+  margin: 20px auto;
+  // transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+  // transition-delay: 0.45s;
+}
 .cv {
   text-align: center;
   margin-top: 20px;
   span {
-    font-family: $font-3;
+    font-family: $poppins;
     text-transform: uppercase;
     color: $black;
     font-size: 20px;
@@ -48,8 +53,9 @@
   font-size: 2rem;
   border-radius: 15px;
   background: #eee;
-  padding: 4px;
-  box-shadow: 1px 3px lightgrey;
+  padding: 12px;
+  box-shadow: 1px 2px #cdd3cd;
+  width: 120px;
 }
 .btn .bx {
   font-size: 1.2rem;
@@ -63,13 +69,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-h1 {
-  background: linear-gradient(180deg, #444818, #bfc57c, #a6b02f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 52px;
-  text-align: center;
 }
 
 .image {
