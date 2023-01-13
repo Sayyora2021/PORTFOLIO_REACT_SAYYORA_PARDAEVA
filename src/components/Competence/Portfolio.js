@@ -12,9 +12,12 @@ const Portfolio = () => {
       <h2>PORTFOLIO</h2>
 
       {projects.map((project, index) => (
-        <div key={index} className="">
+        <div key={index} className="project" id="p1">
           <img src={project.cover} alt="projets" />
         </div>
+      ))}
+      {projects.map((item, index) => (
+        <div key={item} className="info"></div>
       ))}
       <Hobbies />
     </section>

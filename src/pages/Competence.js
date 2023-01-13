@@ -61,7 +61,7 @@ const Competence = () => {
               <i className="fab fa-node-js green"></i>
               <p>NodeJS</p>
             </div>
-            <div class="skillsBox leave">
+            <div className="skillsBox leave">
               <img src={mongodb} alt="photo mongoDB" />
               <p>MongoDB</p>
               <div className="skillsBox">

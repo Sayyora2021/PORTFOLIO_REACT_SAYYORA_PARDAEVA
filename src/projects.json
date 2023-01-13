@@ -1,7 +1,7 @@
 [
   {
     "title": "Booki",
-    "cover": "./assets/img/booki-mini.webp",
+    "cover": "./images/booki-mini.webp",
     "alt": "image de booki",
     "icons": ["./images/html.svg", "./images/css.svg"],
     "description": "Transformer une maquette en site web avec HTML & CSS",
@@ -10,7 +10,7 @@
   },
   {
     "title": "OhMyFood",
-    "cover": "https://C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/ohmyfood-mini.webp",
+    "cover": "./images/ohmyfood-mini.webp",
     "alt": "image de oh my food",
     "icons": ["./images/html.svg", "./images/sass.svg"],
     "description": "Dynamiser une page web avec des animations CSS",
@@ -19,7 +19,7 @@
   },
   {
     "title": "La Panthère",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/panthere-mini.webp",
+    "cover": "./images/panthere-mini.webp",
     "alt": "image de la panthère",
     "icons": ["./images/js.svg", "./images/css.svg"],
     "description": "SEO d'un site web existant",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Kanap",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/kanap-mini.webp",
+    "cover": "./images/kanap-mini.webp",
     "alt": "image de Kanap",
     "icons": ["./images/html.svg", "./images/sass.svg", "./images/js.svg"],
     "description": "Site e-commerce en JavaScript",
@@ -36,7 +36,7 @@
   },
   {
     "title": "Piiquante",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/piiquante-mini.webp",
+    "cover": "./images/piiquante-mini.webp",
     "alt": "image de Piiquante",
     "icons": ["./images/html.svg", "./images/sass.svg", "./images/js.svg"],
     "description": "Construction d'un API sécurisée pour une application",
@@ -45,7 +45,7 @@
 
   {
     "title": "Kasa",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/kasa-mini.webp",
+    "cover": "./images/kasa-mini.webp",
     "alt": "image de kasa",
     "icons": ["./images/html.svg", "./images/sass.svg", "./images/react.svg"],
     "description": "Application web de location avec React",
