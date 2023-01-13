@@ -18,3 +18,37 @@
     }
   }
 }
+.project:hover img {
+  filter: brightness(20%);
+}
+.info {
+  font-family: $poppins;
+  font-size: calc(1rem + 3vw);
+  color: $txtColor;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 5vw;
+  transition: 1s ease-in-out;
+  opacity: 0;
+  p {
+    font-size: 2rem;
+    margin-top: 1.5vw;
+    color: $white;
+  }
+  a {
+    font-family: $poppins;
+    font-size: 18px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $white;
+    border-radius: 15px;
+    margin: 20px 50px;
+    width: 60%;
+  }
+}
+.project:hover .info {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
