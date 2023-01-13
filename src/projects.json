@@ -1,7 +1,7 @@
 [
   {
     "title": "Booki",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/booki-mini.webp",
+    "cover": "./assets/img/booki-mini.webp",
     "alt": "image de booki",
     "icons": ["./images/html.svg", "./images/css.svg"],
     "description": "Transformer une maquette en site web avec HTML & CSS",
@@ -10,7 +10,7 @@
   },
   {
     "title": "OhMyFood",
-    "cover": "file:///C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/ohmyfood-mini.webp",
+    "cover": "https://C:/Users/Sayyora/OneDrive/Bureau/CV/Sayyora-Pardaeva-website/assets/img/ohmyfood-mini.webp",
     "alt": "image de oh my food",
     "icons": ["./images/html.svg", "./images/sass.svg"],
     "description": "Dynamiser une page web avec des animations CSS",

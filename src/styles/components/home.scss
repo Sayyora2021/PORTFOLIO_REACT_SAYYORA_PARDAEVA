@@ -1,3 +1,26 @@
+// Scroll
+.scroll {
+  position: fixed;
+  right: 1.5rem;
+  //bottom: -100%;
+}
+.scroll .fas {
+  padding: 8px;
+  font-size: 1.3rem;
+  color: $darkcolor;
+  background: #eee;
+  border-radius: 0.2rem;
+}
+.scroll .fas:hover {
+  background: #eee;
+  filter: opacity(0.5);
+  transition: 0.3s;
+}
+.scroll-active {
+  bottom: 2rem;
+  transition: 0.3s;
+}
+
 .home {
   h1 {
     font-size: calc(1rem + 8vw);
@@ -40,13 +63,16 @@
 }
 .cv {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   span {
     font-family: $poppins;
     text-transform: uppercase;
     color: $black;
     font-size: 20px;
     font-weight: normal;
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
   }
 }
 .btn {
@@ -55,7 +81,10 @@
   background: #eee;
   padding: 12px;
   box-shadow: 1px 2px #cdd3cd;
-  width: 120px;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }
 .btn .bx {
   font-size: 1.2rem;

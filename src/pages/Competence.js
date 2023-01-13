@@ -1,12 +1,14 @@
 import React from "react";
 import mongodb from "../assets/img/mongodb.webp";
 import figma from "../assets/img/figma_small.svg";
+import Scroll from "../components/Competence/Scroll";
 // import Languages from "../components/Competence/Languages";
 // import Portfolio from "../components/Competence/Portfolio";
 
 const Competence = () => {
   return (
     <section className="competence" id="competence">
+      <Scroll />
       <h2>COMPÉTENCES</h2>
       <div className="skills">
         {/* <!-- Frontend --> */}
@@ -64,7 +66,7 @@ const Competence = () => {
               <p>MongoDB</p>
               <div className="skillsBox">
                 <img src={figma} alt="figma" />
-                <p>Matériel UI</p>
+                <p>Figma</p>
               </div>
             </div>
           </div>

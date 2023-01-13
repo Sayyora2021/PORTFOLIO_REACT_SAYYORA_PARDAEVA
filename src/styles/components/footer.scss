@@ -2,18 +2,34 @@ footer {
   background-color: $blue;
   width: 100%;
   border-radius: $border;
-  height: 200px;
-  box-sizing: border-box;
-}
-.button {
-  @include vertical;
-  padding-right: 15px;
-  p {
-    font-size: 25px;
-    color: $txtColor;
+
+  .footer-text {
+    padding: 2.1rem 0.6rem;
   }
-  .size {
-    font-size: 18px;
+  span {
+    font-family: $font-1;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.3rem;
+  }
+  a,
+  i,
+  span {
+    color: $footTxt;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  p {
+    color: #edf1c1;
+    text-align: center;
+    font-size: 14px;
     font-family: $poppins;
+    font-weight: 400;
   }
 }

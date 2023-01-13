@@ -2,6 +2,9 @@ section {
   margin: 30px 40px;
   padding: 0 10%;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
   h2 {
     font-size: calc(0.7rem + 5vw);
     font-family: "Dancing Script", cursive;

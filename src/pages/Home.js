@@ -1,6 +1,6 @@
 import React from "react";
 import photo from "../assets/img/myphoto.webp";
-import cv from "../assets/img/Sayyora-Pardaeva-CV.png";
+import cv from "../assets/img/Sayyora Pardaeva-CV-développeuse-web.webp";
 import Competences from "./Competence";
 import Portfolio from "../components/Competence/Portfolio";
 
@@ -22,10 +22,10 @@ const Home = () => {
           </p>
         </article>
         <div className="line"></div>
-        <div class="cv">
-          <a href={cv} class="btn" download="">
+        <div className="cv">
+          <a href={cv} className="btn" download="">
             <span> Télécharger le CV</span>
-            <i class="bx bx-download"></i>
+            <i className="bx bx-download"></i>
           </a>
         </div>
       </section>

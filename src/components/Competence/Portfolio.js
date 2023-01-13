@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import Hobbies from "../Competence/Hobbies";
-import project from "../../project.json";
+import projects from "../../projects.json";
 
 const Portfolio = () => {
   const [card] = useState([]);
   <div>test [card]</div>;
+  console.log(projects);
+
   return (
     <section className="portfolio" id="portfolio">
       <h2>PORTFOLIO</h2>
-      {project.map((projet, index) => (
+
+      {projects.map((project, index) => (
         <div key={index} className="">
-          <img src={projet.cover} alt="projets" />
+          <img src={project.cover} alt="projets" />
         </div>
       ))}
       <Hobbies />
