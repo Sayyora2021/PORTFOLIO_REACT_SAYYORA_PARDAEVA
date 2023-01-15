@@ -26,6 +26,10 @@ main {
   height: 30px;
 }
 
+section {
+  margin: 30px 40px;
+}
+
 img {
   color: #a1ab41;
 }

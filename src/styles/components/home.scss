@@ -39,16 +39,16 @@ h1 {
 }
 .about {
   text-align: center;
-}
-p {
-  font-family: $poppins;
-  font-size: calc(0.5rem + 1vw);
+  p {
+    font-family: $poppins;
+    font-size: calc(0.5rem + 1vw);
 
-  letter-spacing: 1px;
-  text-align: justify;
-  width: 70%;
-  min-width: 280px;
-  margin: 0 auto;
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 70%;
+    min-width: 280px;
+    margin: 0 auto;
+  }
 }
 
 .line {
@@ -104,4 +104,9 @@ p {
   width: 350px;
   object-fit: cover;
   border-radius: 50%;
+  @media screen and (max-width: 768px) {
+    background-image: url("../../assets/img/maphoto-mini.webp");
+    width: 200px;
+    height: 200px;
+  }
 }

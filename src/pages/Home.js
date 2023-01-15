@@ -3,6 +3,7 @@ import photo from "../assets/img/myphoto.webp";
 import cv from "../assets/img/CV-développeuse web débutante.webp";
 import Competences from "./Competence";
 import Portfolio from "../components/Competence/Portfolio";
+import Contact from "../components/Competence/Contact";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       </section>
       <Competences />
       <Portfolio />
+      <Contact />
     </main>
   );
 };

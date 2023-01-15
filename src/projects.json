@@ -1,5 +1,6 @@
 [
   {
+    "id": "0",
     "title": "Booki",
     "cover": "./images/booki-mini.webp",
     "alt": "image de booki",
@@ -8,6 +9,7 @@
     "site": "https://sayyora2021.github.io/P2_Booki/"
   },
   {
+    "id": "1",
     "title": "OhMyFood",
     "cover": "./images/ohmyfood-mini.webp",
     "alt": "image de oh my food",
@@ -16,6 +18,7 @@
     "site": "https://sayyora2021.github.io/P3_Sayyora_042022/index.html"
   },
   {
+    "id": "2",
     "title": "La Panthère",
     "cover": "./images/panthere-mini.webp",
     "alt": "image de la panthère",
@@ -25,6 +28,7 @@
     "site": "https://sayyora2021.github.io/P4_La_Panthere/"
   },
   {
+    "id": "3",
     "title": "Kanap",
     "cover": "./images/kanap-mini.webp",
     "alt": "image de Kanap",
@@ -32,6 +36,7 @@
     "git": "https://sayyora2021.github.io/P5_Kanap/"
   },
   {
+    "id": "4",
     "title": "Piiquante",
     "cover": "./images/piiquante-mini.webp",
     "alt": "image de Piiquante",
@@ -40,6 +45,7 @@
   },
 
   {
+    "id": "5",
     "title": "Kasa",
     "cover": "./images/kasa-mini.webp",
     "alt": "image de kasa",
