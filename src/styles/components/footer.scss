@@ -3,9 +3,6 @@ footer {
   width: 100%;
   border-radius: $border;
 
-  .footer-text {
-    padding: 2.1rem 0.6rem;
-  }
   span {
     font-family: $font-1;
     font-size: 35px;
@@ -22,14 +19,19 @@ footer {
   i,
   span {
     color: $footTxt;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
   }
-  p {
-    color: #edf1c1;
-    text-align: center;
-    font-size: 14px;
-    font-family: $poppins;
-    font-weight: 400;
+  .footer-text {
+    padding: 2.1rem 0.6rem;
+
+    p {
+      color: #edf1c1;
+      text-align: center;
+      font-size: 14px;
+      font-family: $poppins;
+      font-weight: 400;
+      padding: 1.1rem;
+    }
   }
 }

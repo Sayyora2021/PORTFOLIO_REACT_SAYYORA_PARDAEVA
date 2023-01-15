@@ -24,8 +24,6 @@ span {
 }
 
 body {
-  width: auto;
-  max-width: 1200px;
   margin: 0 auto;
   height: 100vh;
   font-style: normal;
@@ -60,9 +58,6 @@ a {
   color: $black;
   cursor: pointer;
 }
-// a:visited {
-//   color: $black;
-// }
 
 ul {
   display: flex;

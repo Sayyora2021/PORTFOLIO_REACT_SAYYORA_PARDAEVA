@@ -15,9 +15,12 @@
     display: flex;
     gap: 5px;
   }
+  .header-active {
+    color: $blue;
+    transition: 0.4s;
+  }
 }
 
-.active {
-  color: $blue;
-  transition: 0.4s;
+.green {
+  color: #5b7222;
 }

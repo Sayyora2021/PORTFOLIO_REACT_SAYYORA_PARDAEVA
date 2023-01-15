@@ -21,37 +21,36 @@
   transition: 0.3s;
 }
 
-.home {
-  h1 {
-    font-size: calc(1rem + 8vw);
-    font-family: $font-1;
-    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+h1 {
+  font-size: calc(1rem + 8vw);
+  font-family: $font-1;
+  background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    margin: 0 auto;
-  }
-  .profession {
-    font-size: calc(0.3rem + 4vw);
-    font-family: $font-1;
-    background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .about {
-    text-align: center;
-  }
-  p {
-    font-family: $poppins;
-    font-size: calc(0.5rem + 1vw);
-
-    letter-spacing: 1px;
-    text-align: justify;
-    width: 70%;
-    min-width: 280px;
-    margin: 0 auto;
-  }
+  margin: 0 auto;
 }
+.profession {
+  font-size: calc(0.3rem + 4vw);
+  font-family: $font-1;
+  background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  text-align: center;
+}
+p {
+  font-family: $poppins;
+  font-size: calc(0.5rem + 1vw);
+
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 70%;
+  min-width: 280px;
+  margin: 0 auto;
+}
+
 .line {
   display: block;
   height: 2px;
@@ -101,8 +100,8 @@
 }
 
 .image {
-  height: 200px;
-  width: 200px;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
   border-radius: 50%;
 }
