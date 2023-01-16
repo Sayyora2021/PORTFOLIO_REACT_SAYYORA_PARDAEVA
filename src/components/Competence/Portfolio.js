@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import Hobbies from "./Contact";
 import projects from "../../projects.json";
 
 const Portfolio = () => {
   const [card] = useState([]);
-  <div>test [card]</div>;
+  <div>test {card}</div>;
   console.log(projects);
 
   return (
@@ -29,7 +28,7 @@ const Portfolio = () => {
               <p>{project.description}</p>
 
               {project.site && <a href={project.site}> Site du projet</a>}
-              <a herf={project.git}>{project.icon} Code du projet</a>
+              <a herf={project.git}> Code du projet</a>
             </div>
           </div>
         </div>

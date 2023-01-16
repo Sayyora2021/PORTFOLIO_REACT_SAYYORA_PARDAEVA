@@ -1,9 +1,7 @@
 import React from "react";
-import mongodb from "../assets/img/mongodb.webp";
-import figma from "../assets/img/figma_small.svg";
-import Scroll from "../components/Competence/Scroll";
-// import Languages from "../components/Competence/Languages";
-// import Portfolio from "../components/Competence/Portfolio";
+import mongodb from "../../assets/img/mongodb.webp";
+import figma from "../../assets/img/figma_small.svg";
+import Scroll from "./Scroll";
 
 const Competence = () => {
   return (
@@ -62,7 +60,7 @@ const Competence = () => {
               <p>NodeJS</p>
             </div>
             <div className="skillsBox leave">
-              <img src={mongodb} alt="photo mongoDB" />
+              <image src={mongodb} alt="photo mongoDB" />
               <p>MongoDB</p>
               <div className="skillsBox">
                 <img src={figma} alt="figma" />
@@ -72,7 +70,6 @@ const Competence = () => {
           </div>
         </div>
       </div>
-      {/* <Languages /> */}
     </section>
   );
 };

@@ -35,6 +35,9 @@
     font-size: 1.5rem;
     margin-top: 1.5vw;
     color: $white;
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
   a {
     font-family: $poppins;
@@ -46,6 +49,9 @@
     border-radius: 15px;
     margin: 20px 50px;
     width: 60%;
+    @media screen and (max-width: 768px) {
+      font-size: 14px;
+    }
   }
 }
 .project:hover .info {
@@ -54,7 +60,13 @@
 }
 .left-style {
   margin-left: 30vw;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 }
 .right-style {
   margin: 0 6vw 0 auto;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 }

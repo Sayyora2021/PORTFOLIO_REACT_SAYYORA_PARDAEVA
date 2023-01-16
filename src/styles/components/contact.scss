@@ -1,0 +1,36 @@
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+}
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 15px;
+  color: $black;
+  background: #eee;
+  border-radius: 0.4rem;
+  width: 100%;
+  box-shadow: $box-shadow;
+}
+.contact-form .send-btn {
+  width: 120px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+  margin-top: 5px;
+}
+.send-btn:hover {
+  background: $txtColor;
+}
+.swal-title,
+.swal-text {
+  font-family: $poppins;
+}
