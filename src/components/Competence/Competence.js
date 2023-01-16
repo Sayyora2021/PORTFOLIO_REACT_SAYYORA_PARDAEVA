@@ -60,7 +60,7 @@ const Competence = () => {
               <p>NodeJS</p>
             </div>
             <div className="skillsBox leave">
-              <image src={mongodb} alt="photo mongoDB" />
+              <img src={mongodb} alt="photo mongoDB" />
               <p>MongoDB</p>
               <div className="skillsBox">
                 <img src={figma} alt="figma" />

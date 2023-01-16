@@ -33,9 +33,11 @@ const Contact = () => {
           (result) => {
             console.log(result.text);
             succes();
+            form.current.reset();
           },
           (error) => {
             console.log(error.text);
+            error();
           }
         );
     }
@@ -62,7 +64,13 @@ const Contact = () => {
       icon: "success",
     });
   }
-
+  function error() {
+    swal({
+      title: "Oups!",
+      text: "Le message n'est pas parti!",
+      icon: "error",
+    });
+  }
   return (
     <section className="contact" id="contact">
       <h2>CONTACTEZ-MOI</h2>
