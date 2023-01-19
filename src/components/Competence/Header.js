@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState([]);
-
   const handleClick = (index) => {
     setActiveLink((previouseLink) => {
       let newActiveLink = [...previouseLink];
@@ -10,9 +9,10 @@ const Header = () => {
       return newActiveLink;
     });
   };
+
   return (
     <header>
-      <ul className="links">
+      <ul className="links ">
         <li>
           <a
             href="#accueil"

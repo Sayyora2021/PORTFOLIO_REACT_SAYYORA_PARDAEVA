@@ -17,7 +17,7 @@ const Scroll = () => {
   return (
     <div
       ref={scrollRef}
-      className={`scroll ${isScrolling ? "scroll-activ" : ""}`}
+      className={`scroll ${isScrolling ? "scroll-active" : ""}`}
     >
       <a
         href="#accueil"

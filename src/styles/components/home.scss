@@ -1,8 +1,12 @@
 // Scroll
 .scroll {
   position: fixed;
-  right: 1.5rem;
-  //bottom: -100%;
+  right: 2.5rem;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 768px) {
+    right: 1rem;
+  }
 }
 .scroll .fas {
   padding: 8px;
@@ -10,6 +14,9 @@
   color: $darkcolor;
   background: #eee;
   border-radius: 0.2rem;
+  @media screen and (max-width: 900px) {
+    font-size: 1rem;
+  }
 }
 .scroll .fas:hover {
   background: #eee;
@@ -17,10 +24,11 @@
   transition: 0.3s;
 }
 .scroll-active {
-  bottom: 2rem;
+  bottom: 4rem;
   transition: 0.3s;
+  z-index: 1;
 }
-
+// Home
 h1 {
   font-size: calc(1rem + 8vw);
   font-family: $font-1;
@@ -31,7 +39,7 @@ h1 {
   margin: 0 auto;
 }
 .profession {
-  font-size: calc(0.3rem + 4vw);
+  font-size: calc(0.5rem + 4vw);
   font-family: $font-1;
   background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
   background-clip: text;
@@ -57,12 +65,10 @@ h1 {
   width: 70%;
   background: #000101;
   margin: 20px auto;
-  // transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
-  // transition-delay: 0.45s;
 }
 .cv {
   text-align: center;
-  margin-top: 40px;
+  margin: 10px;
   span {
     font-family: $poppins;
     text-transform: uppercase;

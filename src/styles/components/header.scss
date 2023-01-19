@@ -2,12 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 10px 10px 10px 60%;
+  margin: 0;
   gap: 25px;
-  font-family: "Dancing Script", cursive;
+  font-family: $font-1;
   font-display: swap;
   font-weight: 400;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(0.8rem + 1.7vw);
+  background: white;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 3px 3px #eee;
+  @media screen and (max-width: 768px) {
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+  @media screen and (max-width: 468px) {
+    display: none;
+  }
   a {
     text-decoration: none;
     cursor: pointer;
@@ -19,8 +32,4 @@
     color: $blue;
     transition: 0.4s;
   }
-}
-
-.green {
-  color: #5b7222;
 }

@@ -6,9 +6,9 @@ $txtColor: #a1ab41;
 $darkcolor: #5a6111;
 $footTxt: #edf1c1;
 
-$font-1: "Dancing Script";
+$font-1: "Dancing Script", cursive;
 $font-2: "Comfortaa";
-$poppins: "Poppins";
+$poppins: "Poppins", sans-serif;
 
 $shadow: 0 1px 3px #333;
 $box-shadow: 0 1px 3px #aab5ad;
@@ -16,14 +16,17 @@ $border: 25px;
 $min-height: 95vh;
 
 span {
-  font-family: $font-1;
   color: $txtColor;
   font-size: 26px;
   &:hover {
     color: linear-gradient(188deg, #606617, #bfc57c, #a6b02f);
   }
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0 auto;
   height: 100vh;
@@ -34,7 +37,10 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  padding: 30px 10px 50px 10px;
+  padding: 5% 10px;
+  @media screen and (max-width: 768px) {
+    padding-top: 10%;
+  }
 }
 .icon {
   width: 30px;

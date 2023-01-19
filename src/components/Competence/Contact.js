@@ -37,7 +37,7 @@ const Contact = () => {
           },
           (error) => {
             console.log(error.text);
-            error();
+            erreur();
           }
         );
     }
@@ -64,7 +64,7 @@ const Contact = () => {
       icon: "success",
     });
   }
-  function error() {
+  function erreur() {
     swal({
       title: "Oups!",
       text: "Le message n'est pas parti!",
@@ -74,7 +74,8 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h2>CONTACTEZ-MOI</h2>
-      <form ref={form} onSubmit={sendEmail} className="contact-form">
+      {/* <div className="fond-image"> */}
+      <form ref={form} onSubmit={sendEmail} className="contact-form ">
         <label>
           <input
             type="text"
@@ -99,6 +100,7 @@ const Contact = () => {
           <input type="submit" className="send-btn" value="Envoyer" />
         </label>
       </form>
+      {/* </div> */}
     </section>
   );
 };

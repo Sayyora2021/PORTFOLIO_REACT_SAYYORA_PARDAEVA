@@ -36,7 +36,7 @@
     margin-top: 1.5vw;
     color: $white;
     @media screen and (max-width: 768px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
   a {
@@ -58,15 +58,22 @@
   opacity: 1;
   transform: translate(0, -50%);
 }
-.left-style {
-  margin-left: 30vw;
+// // .left-style {
+// //   margin-left: 30vw;
+
+// //   @media screen and (min-width: 768px) and (max-width: 900px) {
+// //     margin: 0;
+// //   }
+// }
+.right-style {
+  margin: 0 6vw 0 auto;
+
   @media screen and (max-width: 768px) {
     margin: 0;
   }
 }
-.right-style {
-  margin: 0 6vw 0 auto;
-  @media screen and (max-width: 768px) {
-    margin: 0;
-  }
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
