@@ -22,8 +22,7 @@ section {
   }
 }
 .skills {
-  display: flex;
-  justify-content: center;
+  @include flexCenter;
   box-sizing: border-box;
   gap: 5rem;
   @media screen and (max-width: 768px) {
@@ -34,15 +33,12 @@ section {
   display: flex;
 }
 .column {
-  display: flex;
-  flex-direction: column;
+  @include flexColumn;
   width: 50%;
   align-items: center;
 }
 .skillsBox {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  @include vertical;
   flex-direction: column;
   padding: 10px;
 }

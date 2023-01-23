@@ -1,6 +1,6 @@
 import React from "react";
 import photo from "../assets/img/myphoto.webp";
-import cv from "../assets/img/CV-développeuse web débutante.webp";
+import cv from "../assets/img/Sayyora-Pardaeva-CV-web-développeur-junior.webp";
 import Competences from "../components/Competence/Competence";
 import Portfolio from "../components/Competence/Portfolio";
 import Contact from "../components/Competence/Contact";

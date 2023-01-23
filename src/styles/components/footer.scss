@@ -5,13 +5,10 @@ footer {
 
   span {
     font-family: $font-1;
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
+    @include flexCenter;
   }
   .social {
-    display: flex;
-    justify-content: center;
+    @include flexCenter;
     gap: 2rem;
     padding: 1.3rem;
   }

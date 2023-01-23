@@ -7,6 +7,9 @@
   @media screen and (max-width: 768px) {
     right: 1rem;
   }
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
 }
 .scroll .fas {
   padding: 8px;
@@ -50,7 +53,6 @@ h1 {
   p {
     font-family: $poppins;
     font-size: calc(0.5rem + 1vw);
-
     letter-spacing: 1px;
     text-align: justify;
     width: 70%;
@@ -100,9 +102,7 @@ h1 {
 }
 
 .imgRight {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include vertical;
 }
 
 .image {

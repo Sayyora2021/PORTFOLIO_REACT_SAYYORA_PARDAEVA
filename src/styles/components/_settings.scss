@@ -42,17 +42,11 @@ main {
     padding-top: 10%;
   }
 }
-.icon {
-  width: 30px;
-  height: 30px;
-}
+
 section {
   margin: 30px 40px;
 }
 
-img {
-  color: $txtColor;
-}
 button {
   cursor: pointer;
 }
@@ -75,10 +69,12 @@ ul {
   justify-content: center;
   align-items: center;
 }
-@mixin box {
-  width: 400px;
-  height: 600px;
-  background-color: #fff;
-  border-radius: $border;
-  box-shadow: 0 1px 6px #333;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+}
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
 }

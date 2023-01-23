@@ -1,55 +1,40 @@
 import React, { useState } from "react";
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState([]);
-  const handleClick = (index) => {
-    setActiveLink((previouseLink) => {
-      let newActiveLink = [...previouseLink];
-      newActiveLink[index] = !newActiveLink[index];
-      return newActiveLink;
-    });
+  const [showLinks, setShowLinks] = useState(false);
+
+  const handleClickLinks = () => {
+    setShowLinks(!showLinks);
   };
 
   return (
-    <header>
-      <ul className="links ">
-        <li>
-          <a
-            href="#accueil"
-            className={activeLink[0] ? "header-active" : ""}
-            onClick={() => handleClick(0)}
-          >
+    <header className={`navbar ${showLinks ? "show-links" : "hid"}`}>
+      <div className="navbar-hidden"></div>
+      <ul className="nav-links " onClick={handleClickLinks}>
+        <li className="nav-item">
+          <a href="#accueil" className="navlink">
             <i className="fas fa-home"></i>Accueil
           </a>
         </li>
-        <li>
-          <a
-            href="#competence"
-            className={activeLink[1] ? "header-active" : ""}
-            onClick={() => handleClick(1)}
-          >
+        <li className="nav-item">
+          <a href="#competence" className="navlink">
             <i className="fas fa-mountain"></i>Compétences
           </a>
         </li>
-        <li>
-          <a
-            href="#portfolio"
-            className={activeLink[2] ? "header-active" : ""}
-            onClick={() => handleClick(2)}
-          >
+        <li className="nav-item">
+          <a href="#portfolio" className="navlink">
             <i className="fas fa-suitcase"></i>Portfolio
           </a>
         </li>
-        <li>
-          <a
-            href="#contact"
-            className={activeLink[3] ? "header-active" : ""}
-            onClick={() => handleClick(3)}
-          >
+        <li className="nav-item">
+          <a href="#contact" className="navlink">
             <i className="fas fa-address-card"></i>Contact
           </a>
         </li>
       </ul>
+      <button className="navbar-burger" onClick={handleClickLinks}>
+        <span className="burger-bar"></span>
+      </button>
     </header>
   );
 };

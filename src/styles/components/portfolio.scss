@@ -43,8 +43,7 @@
     font-family: $poppins;
     font-size: 18px;
     color: $white;
-    display: flex;
-    flex-direction: column;
+    @include flexColumn;
     border: 1px solid $white;
     border-radius: 15px;
     margin: 20px 50px;
@@ -58,13 +57,7 @@
   opacity: 1;
   transform: translate(0, -50%);
 }
-// // .left-style {
-// //   margin-left: 30vw;
 
-// //   @media screen and (min-width: 768px) and (max-width: 900px) {
-// //     margin: 0;
-// //   }
-// }
 .right-style {
   margin: 0 6vw 0 auto;
 
