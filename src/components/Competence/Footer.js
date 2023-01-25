@@ -7,15 +7,24 @@ const Footer = () => {
         <span>Sayyora Pardaeva</span>
 
         <div className="social">
-          <a href="https://www.linkedin.com/in/sayyora-pardaeva/">
+          <a
+            href="https://www.linkedin.com/in/sayyora-pardaeva/"
+            aria-label="Read more about linkedin"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
 
-          <a href="https://github.com/Sayyora2021">
+          <a
+            href="https://github.com/Sayyora2021"
+            aria-label="Read more about github"
+          >
             <i className="fab fa-github"></i>
           </a>
 
-          <a href="mailto:sayyorapardaeva@gmail.com">
+          <a
+            href="mailto:sayyorapardaeva@gmail.com"
+            aria-label="Read more about mail"
+          >
             <i className="fas fa-envelope"></i>
           </a>
         </div>

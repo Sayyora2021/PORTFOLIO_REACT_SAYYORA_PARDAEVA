@@ -7,7 +7,7 @@ section {
   h2 {
     font-size: calc(0.7rem + 5vw);
     font-family: "Dancing Script", cursive;
-    font-display: swap;
+    @include swap;
     background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
     -webkit-background-clip: text;
     background-clip: text;
@@ -16,6 +16,7 @@ section {
   }
   h3 {
     font-family: $poppins;
+    @include swap;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -57,13 +58,20 @@ section {
   }
   p {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-display: swap;
+    @include swap;
     font-size: 14px;
     line-height: calc(1px + 2.5vw);
     letter-spacing: 1px;
     text-align: center;
     margin: 0 auto;
+  }
+  .mongo {
+    width: 48px;
+    height: 48px;
+  }
+  .figma {
+    width: 48px;
+    height: 48px;
   }
   .red {
     color: red;

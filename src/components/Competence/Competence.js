@@ -1,12 +1,16 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import mongodb from "../../assets/img/mongodb.webp";
-import figma from "../../assets/img/figma_small.svg";
-import Scroll from "./Scroll";
+import figma from "../../assets/img/figma_small.webp";
+// import Scroll from "./Scroll";
+const Scroll = lazy(() => import("./Scroll"));
 
 const Competence = () => {
   return (
     <section className="competence" id="competence">
-      <Scroll />
+      <Suspense fallback={<div>Loading</div>}>
+        <Scroll />
+      </Suspense>
+
       <h2>COMPÉTENCES</h2>
       <div className="skills">
         {/* <!-- Frontend --> */}
@@ -59,12 +63,12 @@ const Competence = () => {
               <i className="fab fa-node-js green"></i>
               <p>NodeJS</p>
             </div>
-            <div className="skillsBox leave">
-              <img src={mongodb} alt=" mongoDB" />
+            <div className="skillsBox">
+              <img src={mongodb} alt=" mongoDB" className="mongo" />
               <p>MongoDB</p>
             </div>
-            <div className="skillsBox">
-              <img src={figma} alt="figma" />
+            <div className="skillsBox ">
+              <img src={figma} alt="figma" className="figma" />
               <p>Figma</p>
             </div>
           </div>

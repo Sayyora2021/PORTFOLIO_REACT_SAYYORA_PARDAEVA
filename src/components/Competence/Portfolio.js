@@ -26,8 +26,16 @@ const Portfolio = () => {
               <div className="info">
                 {project.title}
                 <p>{project.description}</p>
-                {project.site && <a href={project.site}> Site du projet</a>}
-                <a href={project.git}> Code du projet</a>
+                {project.site && (
+                  <a href={project.site} aria-label="read more about site">
+                    {" "}
+                    Site du projet
+                  </a>
+                )}
+                <a href={project.git} aria-label="read more about github">
+                  {" "}
+                  Code du projet
+                </a>
               </div>
             </div>
           </div>

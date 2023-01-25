@@ -12,27 +12,48 @@ const Header = () => {
       <div className="navbar-hidden"></div>
       <ul className="nav-links " onClick={handleClickLinks}>
         <li className="nav-item">
-          <a href="#accueil" className="navlink">
+          <a
+            href="#accueil"
+            className="navlink"
+            aria-label="read more about homepage"
+          >
             <i className="fas fa-home"></i>Accueil
           </a>
         </li>
         <li className="nav-item">
-          <a href="#competence" className="navlink">
+          <a
+            href="#competence"
+            className="navlink"
+            aria-label="read more about competences"
+          >
             <i className="fas fa-mountain"></i>Compétences
           </a>
         </li>
         <li className="nav-item">
-          <a href="#portfolio" className="navlink">
+          <a
+            href="#portfolio"
+            className="navlink"
+            aria-label="read more about portfolio"
+          >
             <i className="fas fa-suitcase"></i>Portfolio
           </a>
         </li>
         <li className="nav-item">
-          <a href="#contact" className="navlink">
+          <a
+            href="#contact"
+            className="navlink"
+            aria-label="read more about contact"
+          >
             <i className="fas fa-address-card"></i>Contact
           </a>
         </li>
       </ul>
-      <button className="navbar-burger" onClick={handleClickLinks}>
+      <button
+        id="nav-btn"
+        className="navbar-burger"
+        onClick={handleClickLinks}
+        aria-label="text"
+      >
         <span className="burger-bar"></span>
       </button>
     </header>

@@ -33,4 +33,5 @@
 .swal-title,
 .swal-text {
   font-family: $poppins;
+  @include swap;
 }

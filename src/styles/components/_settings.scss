@@ -15,6 +15,12 @@ $box-shadow: 0 1px 3px #aab5ad;
 $border: 25px;
 $min-height: 95vh;
 
+@mixin swap {
+  font-size: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
 span {
   color: $txtColor;
   font-size: 26px;

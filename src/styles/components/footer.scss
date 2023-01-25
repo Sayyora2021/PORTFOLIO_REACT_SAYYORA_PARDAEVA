@@ -5,6 +5,7 @@ footer {
 
   span {
     font-family: $font-1;
+    @include swap;
     @include flexCenter;
   }
   .social {
@@ -27,7 +28,7 @@ footer {
       text-align: center;
       font-size: 14px;
       font-family: $poppins;
-      font-weight: 400;
+      @include swap;
       padding: 1.1rem;
     }
   }

@@ -9,9 +9,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
+
+      <Home />
+
       {/* <Routes>
         <Route exact path="/" element={<Home />} /> */}
-      <Home />
+
       {/* <Route path="*" element={<NotFound />} />
       </Routes> */}
       <Footer />

@@ -74,7 +74,6 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h2>CONTACTEZ-MOI</h2>
-      {/* <div className="fond-image"> */}
       <form ref={form} onSubmit={sendEmail} className="contact-form ">
         <label>
           <input
@@ -100,7 +99,6 @@ const Contact = () => {
           <input type="submit" className="send-btn" value="Envoyer" />
         </label>
       </form>
-      {/* </div> */}
     </section>
   );
 };

@@ -35,6 +35,7 @@
 h1 {
   font-size: calc(1rem + 8vw);
   font-family: $font-1;
+  @include swap;
   background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,6 +45,7 @@ h1 {
 .profession {
   font-size: calc(0.5rem + 4vw);
   font-family: $font-1;
+  @include swap;
   background: linear-gradient(360deg, #444818, #bfc57c, #a6b02f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,7 +54,8 @@ h1 {
   text-align: center;
   p {
     font-family: $poppins;
-    font-size: calc(0.5rem + 1vw);
+    @include swap;
+    font-size: calc(0.75rem + 1vw);
     letter-spacing: 1px;
     text-align: justify;
     width: 70%;
@@ -73,10 +76,11 @@ h1 {
   margin: 10px;
   span {
     font-family: $poppins;
+    @include swap;
     text-transform: uppercase;
     color: $black;
     font-size: 20px;
-    font-weight: normal;
+
     @media screen and (max-width: 768px) {
       font-size: 16px;
     }
