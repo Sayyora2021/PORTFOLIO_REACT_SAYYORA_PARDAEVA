@@ -4,7 +4,6 @@ import projects from "../../projects.json";
 const Portfolio = () => {
   const [card] = useState([]);
   <div>test {card}</div>;
-  console.log(projects);
 
   return (
     <section id="portfolio">
