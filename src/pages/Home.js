@@ -20,8 +20,8 @@ const Home = () => {
           <h1>Sayyora Pardaeva</h1>
           <h2 className="profession">Développeuse web débutante</h2>
           <p>
-            Récemment diplomée en développement web et dotée d’une solide base
-            théroique, pratique, je suis à la recherche d’un CDI où alternance
+            Récemment diplômée en développement web et dotée d’une solide base
+            théorique, pratique, je suis à la recherche d’un CDI où alternance
             en web développement à Lyon et alentours, pour évoluer mes
             connaissances en informatique.
           </p>
