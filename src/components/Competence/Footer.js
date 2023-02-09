@@ -10,6 +10,8 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/sayyora-pardaeva/"
             aria-label="Read more about linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin"></i>
           </a>
@@ -17,6 +19,8 @@ const Footer = () => {
           <a
             href="https://github.com/Sayyora2021"
             aria-label="Read more about github"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i className="fab fa-github"></i>
           </a>
