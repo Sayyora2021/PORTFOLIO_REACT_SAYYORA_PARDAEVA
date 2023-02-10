@@ -7,7 +7,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>PROJETS</h2>
+      <h2>PORTFOLIO</h2>
       <div className="portfolio">
         {projects.map((project) => (
           <div
