@@ -26,12 +26,22 @@ const Portfolio = () => {
                 {project.title}
                 <p>{project.description}</p>
                 {project.site && (
-                  <a href={project.site} aria-label="read more about site">
+                  <a
+                    href={project.site}
+                    aria-label="read more about site"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     {" "}
                     Site du projet
                   </a>
                 )}
-                <a href={project.git} aria-label="read more about github">
+                <a
+                  href={project.git}
+                  aria-label="read more about github"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {" "}
                   Code du projet
                 </a>
