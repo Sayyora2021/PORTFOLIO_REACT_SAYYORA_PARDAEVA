@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import photo from "../assets/img/myphoto.webp";
+import photo from "../assets/img/maphoto.webp";
 import cv from "../assets/img/Sayyora-Pardaeva.webp";
 
 const Competences = lazy(() => import("../components/Competence/Competence"));
