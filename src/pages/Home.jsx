@@ -17,10 +17,11 @@ const Home = () => {
           <h1>Sayyora Pardaeva</h1>
           <h2 className="profession">Développeuse web débutante</h2>
           <p>
-            Récemment diplômée en développement web et dotée d’une solide base
-            théorique, pratique, je suis à la recherche d’un CDI où alternance
-            en web développement à Lyon et alentours, pour évoluer mes
-            connaissances en informatique.
+          Passionnée par la programmation, diplômée en développement web et certifiée 
+          en formation .NET, je suis à la recherche d'une opportunité dans le domaine 
+          du développement .NET ou du développement web à Lyon et ses alentours. 
+          Mon objectif est d'approfondir mes connaissances en informatique et 
+          de contribuer de manière significative à des projets stimulants.
           </p>
         </article>
         <div className="line"></div>
