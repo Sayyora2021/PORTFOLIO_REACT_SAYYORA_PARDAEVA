@@ -15,11 +15,12 @@ const Home = () => {
         </div>
         <article className="about">
           <h1>Sayyora Pardaeva</h1>
-          <h2 className="profession">Développeuse web débutante</h2>
+          <h2 className="profession">Développeuse .NET Junior</h2>
           <p>
           Passionnée par la programmation, diplômée en développement web et certifiée 
           en formation .NET, je suis à la recherche d'une opportunité dans le domaine 
           du développement .NET ou du développement web à Lyon et ses alentours. 
+          J'ai une appétence pour le backend. 
           Mon objectif est d'approfondir mes connaissances en informatique et 
           de contribuer de manière significative à des projets stimulants.
           </p>

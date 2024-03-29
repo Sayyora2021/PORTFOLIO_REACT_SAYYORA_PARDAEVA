@@ -10,6 +10,7 @@ import aspnet from "../../assets/img/aspnet.webp";
 import entity from "../../assets/img/entity.webp";
 import vscode from "../../assets/img/visual.webp";
 import vs from "../../assets/img/vs.webp";
+import angular from "../../assets/img/angular.webp";
 // import Scroll from "./Scroll";
 const Scroll = lazy(() => import("./Scroll"));
 
@@ -50,10 +51,10 @@ const Competence = () => {
                 <i className="fab fa-react react"></i>
                 <p>React</p>
               </div>
-              <div className="skillsBox">
-                <i className="fab fa-github"></i>
-                <p>Git</p>
-              </div>
+              <div className="skillsBox ">
+              <img src={angular} alt="Angular" className="logo" />
+              <p>Angular</p>
+            </div>
               <div className="skillsBox">
                 <i className="fas fa-gavel"></i>
                 <p>SEO</p>
@@ -130,6 +131,10 @@ const Competence = () => {
               <img src={vs} alt="visual studio" className="logo" />
               <p>Visual Studio</p>
             </div>
+            <div className="skillsBox">
+                <i className="fab fa-github"></i>
+                <p>Git</p>
+              </div>
             <div className="skillsBox ">
               <img src={figma} alt="figma" className="logo" />
               <p>Figma</p>
